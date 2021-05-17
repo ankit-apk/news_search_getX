@@ -35,7 +35,8 @@ class _NewsSearchState extends State<NewsSearch> {
                 ),
                 child: TextField(
                   decoration: InputDecoration(
-                      hintText: 'Search Articles', border: InputBorder.none),
+                      hintText: 'Search News Articles',
+                      border: InputBorder.none),
                   onChanged: (newValue) {
                     setState(() {
                       widget.category = newValue;
