@@ -19,6 +19,7 @@ class _NewsSearchState extends State<NewsSearch> {
       body: SingleChildScrollView(
         child: Container(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset('assets/news.png'),
               Container(
